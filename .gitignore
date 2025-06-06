@@ -1,0 +1,25 @@
+# Ignore Simulink build artifacts
+slprj/
+Wrist_Force_Control/*      # SLRT build folder
+*.slxc
+*.asv
+*.autosave
+*.mex*
+*.simlock
+*.log
+*.mat
+*.exe
+*.dlm
+*.pdb
+
+# Ignore temporary MATLAB/Simulink files
+*.mdl.*
+*.bak
+.DS_Store
+Thumbs.db
+
+# Ignore backup folders
+backup/
+
+#Include in model
+!Wrist_Force_Control/Wrist_Force_Control.slx
